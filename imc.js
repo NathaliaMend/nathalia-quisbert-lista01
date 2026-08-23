@@ -8,7 +8,6 @@ function calculaimc(peso, altura) {
     return imc.toFixed(2);
 }
 
-
 function resultado(imc) {
     if (imc < 18.5) {
         console.log(`Seu IMC é ${imc} está baixo, cuide-se.`)
