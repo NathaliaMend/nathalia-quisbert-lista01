@@ -1,5 +1,5 @@
-//var nome = 'nathalia';
-//var idade = 25; 
+//let nome = 'nathalia';
+//let idade = 25; 
 
 function votacao(nome, idade) {
     if (idade < 16) {

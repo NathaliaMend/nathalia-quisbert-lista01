@@ -1,4 +1,4 @@
-var vetor = [10, 20, 30, 40, 50]
+let vetor = [10, 20, 30, 40, 50]
 
 function trasprafrente(vetor) {    
     let tamanho = vetor.length

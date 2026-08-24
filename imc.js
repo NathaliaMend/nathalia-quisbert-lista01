@@ -1,10 +1,10 @@
-var peso = 60;
-var altura = 1.67;
+let peso = 60;
+let altura = 1.67;
 
 //imc ideal <18,5 e 24,9>
 
 function calculaimc(peso, altura) {
-    var imc = peso / (altura * altura)
+    let imc = peso / (altura * altura)
     return imc.toFixed(2);
 }
 
