@@ -20,6 +20,7 @@ const readline = require('readline').createInterface({
 
 readline.question('Digite o nome: ', (nome) => {
     console.log(`Você digitou: ${nome}`);
+
     readline.question('Digite a idade: ', (idade) => {
         console.log(`Você digitou: ${idade}`);
         votacao(nome, idade);
